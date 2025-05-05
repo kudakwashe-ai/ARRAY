@@ -1,0 +1,8 @@
+user_input = input("Enter numbers separated by spaces: ")
+user_numbers = list(map(int, user_input.split()))
+total = sum(user_numbers)
+average = total / len(user_numbers)
+print("Sum:", total)
+print("Average:", average)
+print("Largest:", max(user_numbers))
+print("Smallest:", min(user_numbers))
